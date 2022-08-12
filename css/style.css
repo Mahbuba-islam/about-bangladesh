@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.title{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+    margin-top: 70px;
+
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.banner-title{
+    margin-bottom: 10px;
+    color: rgb(15, 88, 15);
+    
+}
+
+.banner-text p{
+    line-height: 2;
+}
+
+.btn{
+   padding: 10px 30px;
+   margin-top: 15px;
+   border: 0px;
+   background-image: linear-gradient(60deg, red, rgb(91, 199, 91));
+   color: white;
+   border-radius: 10%;
+   font-weight: 700;
+   font-size: 16px;
+   
+}
+
+.btn a{
+    outline: 0px;
+    color: white;
+}
+.btn:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.banner-left{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.banner-right{
+    flex: 1;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.banner-right img{
+  width: 400px;
+}
+
+.division{
+    width: 280px;
+    border: 1px solid whitesmoke;
+    box-shadow: 4px 4px 12px rgb(219, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+
+
+}
+
+.all-devisions{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px 0;
+  width: 80%;
+  margin: 80px auto;
+
+}
+
+
+.division-title{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.devision-details{
+  line-height: 3ch;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.division img{
+    width: 100%;
+}
+
+.details-btn{
+   text-align: center;
+   margin: 15px;
+}
+
+.details-btn button{
+    padding: 10px 10px;
+    background-color:green;
+    color: #ffffff ;
+    border: 0px;
+    border-radius: 7%;
+   
+}
+
+.details-btn button:hover{
+    background-color: transparent;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+Footer{
+    background-color: rgb(224, 235, 224);
+    height: 50px;
+    text-align: center;
+    padding: 50px 0;
+}
